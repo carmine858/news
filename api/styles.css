@@ -1,0 +1,70 @@
+.card {
+  width: 100%; /* Larghezza delle card */
+  position: relative;
+}
+
+.card-body {
+  height: 270px; /* Altezza massima della card body */
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Mostra solo 3 righe */
+  -webkit-box-orient: vertical;
+}
+
+.card-img-top {
+  height: 200px; /* Altezza predefinita dell'immagine */
+  object-fit: cover; /* Riempi lo spazio mantenendo le proporzioni */
+}
+
+.btn {
+  height: auto; /* Imposta l'altezza dei bottoni in base al contenuto */
+  display: inline-block; /* Assicura che i bottoni siano disposti su una riga */
+  vertical-align: middle; /* Allinea il testo verticalmente al centro dei bottoni */
+  position: absolute; /* Posizione assoluta rispetto alla card */
+  bottom: 8px;
+}
+.carousel-item img {
+  max-height: 850px; /* Altezza massima dell'immagine nel carosello */
+}
+
+.navbar-toggler {
+  margin-right: 10px; /* Margine destro */
+}
+
+.navbar-collapse {
+  margin-right: -10px; /* Margine destro */
+}
+
+.navbar {
+  height: 9rem; /* Altezza della navbar */
+}
+
+.navbar-brand {
+  font-size: 60px; /* Dimensione del testo del brand */
+  margin-right: 320px;
+}
+
+.nav-link {
+  font-size: 24px; /* Dimensione del testo dei link nella navbar */
+}
+
+.favorite-btn {
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.favorite-btn .bi {
+  font-size: 1.5rem;
+}
+
+.pizzetta {
+  font-size: 24px;
+}
+
+    
